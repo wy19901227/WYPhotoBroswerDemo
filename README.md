@@ -1,8 +1,8 @@
 # WYPhotoBroswerDemo
-演示项目
+演示项目介绍
 ==============
 查看并运行 `WYPhotoBroswerDemo/WYPhotoBroswer.xcodeproj`
-
+基于我偶像YYkit(https://github.com/ibireme/YYKit)的图片浏览器（效果和facebook的一样）
 ![image](https://github.com/wy19901227/WYPhotoBroswerDemo/raw/master/snapshort/a.gif)
 
 实例用法
