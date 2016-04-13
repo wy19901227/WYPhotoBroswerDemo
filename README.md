@@ -15,6 +15,6 @@
         
     
     WYPhotoBrowser* browser=[[WYPhotoBrowser alloc]initWithPhotos:items animatedFromView:fromView];
-   // browser.animator.behindViewScale=1;//
+    browser.animator.behindViewScale=1;
     browser.animator.transitionDuration=.28;
     [self presentViewController:browser animated:YES completion:nil];
