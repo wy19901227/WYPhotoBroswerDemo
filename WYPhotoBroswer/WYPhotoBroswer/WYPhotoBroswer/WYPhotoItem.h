@@ -13,5 +13,5 @@
 @property(nonatomic,strong)UIView* thumbView;
 @property(nonatomic,strong)NSURL* orignalImageUrl;
 @property(nonatomic,strong)UIImage* thumbImage;
-@property(nonatomic,assign)BOOL thumbClippedToTop;
+
 @end

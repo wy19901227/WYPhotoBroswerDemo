@@ -21,13 +21,5 @@
         return nil;
     }
 }
-- (BOOL)thumbClippedToTop {
-    if (_thumbView) {
-        if (_thumbView.layer.contentsRect.size.height < 1) {
-            return YES;
-        }
-    }
-    return NO;
-}
 
 @end
