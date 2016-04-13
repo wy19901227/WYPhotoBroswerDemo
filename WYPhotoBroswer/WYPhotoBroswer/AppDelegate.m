@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WBStatusTimelineViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController* na=[[UINavigationController alloc]initWithRootViewController:[[WBStatusTimelineViewController alloc]init]];
+    self.window.rootViewController = na;
+    self.window.backgroundColor = [UIColor blackColor];
+    [self.window makeKeyAndVisible];
+    
+
+    
     return YES;
 }
 

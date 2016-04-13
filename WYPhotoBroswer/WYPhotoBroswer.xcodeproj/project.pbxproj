@@ -18,6 +18,27 @@
 		18F48EF21CBE3A91002A72CD /* WYPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EEB1CBE3A91002A72CD /* WYPhotoItem.m */; };
 		18F48EF31CBE3A91002A72CD /* WYPhotoTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EED1CBE3A91002A72CD /* WYPhotoTransitionAnimator.m */; };
 		18F48EF41CBE3A91002A72CD /* WYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EEF1CBE3A91002A72CD /* WYPhotoView.m */; };
+		18F48F0E1CBE3C58002A72CD /* WBEmoticonInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EF71CBE3C58002A72CD /* WBEmoticonInputView.m */; };
+		18F48F0F1CBE3C58002A72CD /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EF91CBE3C58002A72CD /* WBModel.m */; };
+		18F48F101CBE3C58002A72CD /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EFB1CBE3C58002A72CD /* WBStatusCell.m */; };
+		18F48F111CBE3C58002A72CD /* WBStatusComposeTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EFD1CBE3C58002A72CD /* WBStatusComposeTextParser.m */; };
+		18F48F121CBE3C58002A72CD /* WBStatusComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48EFF1CBE3C58002A72CD /* WBStatusComposeViewController.m */; };
+		18F48F131CBE3C58002A72CD /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F011CBE3C58002A72CD /* WBStatusHelper.m */; };
+		18F48F141CBE3C58002A72CD /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F031CBE3C58002A72CD /* WBStatusLayout.m */; };
+		18F48F151CBE3C58002A72CD /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F051CBE3C58002A72CD /* WBStatusTimelineViewController.m */; };
+		18F48F161CBE3C58002A72CD /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F061CBE3C58002A72CD /* weibo_0.json */; };
+		18F48F171CBE3C58002A72CD /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F071CBE3C58002A72CD /* weibo_1.json */; };
+		18F48F181CBE3C58002A72CD /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F081CBE3C58002A72CD /* weibo_2.json */; };
+		18F48F191CBE3C58002A72CD /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F091CBE3C58002A72CD /* weibo_3.json */; };
+		18F48F1A1CBE3C58002A72CD /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F0A1CBE3C58002A72CD /* weibo_4.json */; };
+		18F48F1B1CBE3C58002A72CD /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F0B1CBE3C58002A72CD /* weibo_5.json */; };
+		18F48F1C1CBE3C58002A72CD /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F0C1CBE3C58002A72CD /* weibo_6.json */; };
+		18F48F1D1CBE3C58002A72CD /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 18F48F0D1CBE3C58002A72CD /* weibo_7.json */; };
+		18F48F271CBE3D75002A72CD /* YYControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F201CBE3D75002A72CD /* YYControl.m */; };
+		18F48F281CBE3D75002A72CD /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F221CBE3D75002A72CD /* YYFPSLabel.m */; };
+		18F48F291CBE3D75002A72CD /* YYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F241CBE3D75002A72CD /* YYTableView.m */; };
+		18F48F2A1CBE3D75002A72CD /* YYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F261CBE3D75002A72CD /* YYTableViewCell.m */; };
+		18F48F2D1CBE3DCB002A72CD /* YYSimpleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F48F2C1CBE3DCB002A72CD /* YYSimpleWebViewController.m */; };
 		5D8A4E31A068037AD2AE2CA6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF9F82A648E231BE7D0CD0C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +63,40 @@
 		18F48EED1CBE3A91002A72CD /* WYPhotoTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPhotoTransitionAnimator.m; sourceTree = "<group>"; };
 		18F48EEE1CBE3A91002A72CD /* WYPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPhotoView.h; sourceTree = "<group>"; };
 		18F48EEF1CBE3A91002A72CD /* WYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPhotoView.m; sourceTree = "<group>"; };
+		18F48EF61CBE3C58002A72CD /* WBEmoticonInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBEmoticonInputView.h; sourceTree = "<group>"; };
+		18F48EF71CBE3C58002A72CD /* WBEmoticonInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBEmoticonInputView.m; sourceTree = "<group>"; };
+		18F48EF81CBE3C58002A72CD /* WBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBModel.h; sourceTree = "<group>"; };
+		18F48EF91CBE3C58002A72CD /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
+		18F48EFA1CBE3C58002A72CD /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
+		18F48EFB1CBE3C58002A72CD /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
+		18F48EFC1CBE3C58002A72CD /* WBStatusComposeTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusComposeTextParser.h; sourceTree = "<group>"; };
+		18F48EFD1CBE3C58002A72CD /* WBStatusComposeTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusComposeTextParser.m; sourceTree = "<group>"; };
+		18F48EFE1CBE3C58002A72CD /* WBStatusComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusComposeViewController.h; sourceTree = "<group>"; };
+		18F48EFF1CBE3C58002A72CD /* WBStatusComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusComposeViewController.m; sourceTree = "<group>"; };
+		18F48F001CBE3C58002A72CD /* WBStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusHelper.h; sourceTree = "<group>"; };
+		18F48F011CBE3C58002A72CD /* WBStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusHelper.m; sourceTree = "<group>"; };
+		18F48F021CBE3C58002A72CD /* WBStatusLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
+		18F48F031CBE3C58002A72CD /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
+		18F48F041CBE3C58002A72CD /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
+		18F48F051CBE3C58002A72CD /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
+		18F48F061CBE3C58002A72CD /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
+		18F48F071CBE3C58002A72CD /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
+		18F48F081CBE3C58002A72CD /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
+		18F48F091CBE3C58002A72CD /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
+		18F48F0A1CBE3C58002A72CD /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
+		18F48F0B1CBE3C58002A72CD /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
+		18F48F0C1CBE3C58002A72CD /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
+		18F48F0D1CBE3C58002A72CD /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
+		18F48F1F1CBE3D75002A72CD /* YYControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYControl.h; sourceTree = "<group>"; };
+		18F48F201CBE3D75002A72CD /* YYControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYControl.m; sourceTree = "<group>"; };
+		18F48F211CBE3D75002A72CD /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		18F48F221CBE3D75002A72CD /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		18F48F231CBE3D75002A72CD /* YYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableView.h; sourceTree = "<group>"; };
+		18F48F241CBE3D75002A72CD /* YYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableView.m; sourceTree = "<group>"; };
+		18F48F251CBE3D75002A72CD /* YYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTableViewCell.h; sourceTree = "<group>"; };
+		18F48F261CBE3D75002A72CD /* YYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTableViewCell.m; sourceTree = "<group>"; };
+		18F48F2B1CBE3DCB002A72CD /* YYSimpleWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSimpleWebViewController.h; sourceTree = "<group>"; };
+		18F48F2C1CBE3DCB002A72CD /* YYSimpleWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSimpleWebViewController.m; sourceTree = "<group>"; };
 		1FF9F82A648E231BE7D0CD0C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2378B959B2ED863169BD9B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F0E3DF670568D2110899BB0E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +143,8 @@
 		18F48ECD1CBE39E0002A72CD /* WYPhotoBroswer */ = {
 			isa = PBXGroup;
 			children = (
+				18F48F1E1CBE3D75002A72CD /* other */,
+				18F48EF51CBE3C58002A72CD /* weibo */,
 				18F48EE51CBE3A91002A72CD /* WYPhotoBroswer */,
 				18F48ED11CBE39E0002A72CD /* AppDelegate.h */,
 				18F48ED21CBE39E0002A72CD /* AppDelegate.m */,
@@ -125,6 +182,54 @@
 				18F48EEF1CBE3A91002A72CD /* WYPhotoView.m */,
 			);
 			path = WYPhotoBroswer;
+			sourceTree = "<group>";
+		};
+		18F48EF51CBE3C58002A72CD /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+				18F48EF61CBE3C58002A72CD /* WBEmoticonInputView.h */,
+				18F48EF71CBE3C58002A72CD /* WBEmoticonInputView.m */,
+				18F48EF81CBE3C58002A72CD /* WBModel.h */,
+				18F48EF91CBE3C58002A72CD /* WBModel.m */,
+				18F48EFA1CBE3C58002A72CD /* WBStatusCell.h */,
+				18F48EFB1CBE3C58002A72CD /* WBStatusCell.m */,
+				18F48EFC1CBE3C58002A72CD /* WBStatusComposeTextParser.h */,
+				18F48EFD1CBE3C58002A72CD /* WBStatusComposeTextParser.m */,
+				18F48EFE1CBE3C58002A72CD /* WBStatusComposeViewController.h */,
+				18F48EFF1CBE3C58002A72CD /* WBStatusComposeViewController.m */,
+				18F48F001CBE3C58002A72CD /* WBStatusHelper.h */,
+				18F48F011CBE3C58002A72CD /* WBStatusHelper.m */,
+				18F48F021CBE3C58002A72CD /* WBStatusLayout.h */,
+				18F48F031CBE3C58002A72CD /* WBStatusLayout.m */,
+				18F48F041CBE3C58002A72CD /* WBStatusTimelineViewController.h */,
+				18F48F051CBE3C58002A72CD /* WBStatusTimelineViewController.m */,
+				18F48F061CBE3C58002A72CD /* weibo_0.json */,
+				18F48F071CBE3C58002A72CD /* weibo_1.json */,
+				18F48F081CBE3C58002A72CD /* weibo_2.json */,
+				18F48F091CBE3C58002A72CD /* weibo_3.json */,
+				18F48F0A1CBE3C58002A72CD /* weibo_4.json */,
+				18F48F0B1CBE3C58002A72CD /* weibo_5.json */,
+				18F48F0C1CBE3C58002A72CD /* weibo_6.json */,
+				18F48F0D1CBE3C58002A72CD /* weibo_7.json */,
+			);
+			path = weibo;
+			sourceTree = "<group>";
+		};
+		18F48F1E1CBE3D75002A72CD /* other */ = {
+			isa = PBXGroup;
+			children = (
+				18F48F2B1CBE3DCB002A72CD /* YYSimpleWebViewController.h */,
+				18F48F2C1CBE3DCB002A72CD /* YYSimpleWebViewController.m */,
+				18F48F1F1CBE3D75002A72CD /* YYControl.h */,
+				18F48F201CBE3D75002A72CD /* YYControl.m */,
+				18F48F211CBE3D75002A72CD /* YYFPSLabel.h */,
+				18F48F221CBE3D75002A72CD /* YYFPSLabel.m */,
+				18F48F231CBE3D75002A72CD /* YYTableView.h */,
+				18F48F241CBE3D75002A72CD /* YYTableView.m */,
+				18F48F251CBE3D75002A72CD /* YYTableViewCell.h */,
+				18F48F261CBE3D75002A72CD /* YYTableViewCell.m */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 		34ACAF89A2B6AC7812E56141 /* Pods */ = {
@@ -196,8 +301,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F48F171CBE3C58002A72CD /* weibo_1.json in Resources */,
+				18F48F181CBE3C58002A72CD /* weibo_2.json in Resources */,
 				18F48EDE1CBE39E0002A72CD /* LaunchScreen.storyboard in Resources */,
+				18F48F191CBE3C58002A72CD /* weibo_3.json in Resources */,
+				18F48F1D1CBE3C58002A72CD /* weibo_7.json in Resources */,
+				18F48F161CBE3C58002A72CD /* weibo_0.json in Resources */,
+				18F48F1C1CBE3C58002A72CD /* weibo_6.json in Resources */,
+				18F48F1A1CBE3C58002A72CD /* weibo_4.json in Resources */,
 				18F48EDB1CBE39E0002A72CD /* Assets.xcassets in Resources */,
+				18F48F1B1CBE3C58002A72CD /* weibo_5.json in Resources */,
 				18F48ED91CBE39E0002A72CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +370,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F48F281CBE3D75002A72CD /* YYFPSLabel.m in Sources */,
+				18F48F291CBE3D75002A72CD /* YYTableView.m in Sources */,
 				18F48EF31CBE3A91002A72CD /* WYPhotoTransitionAnimator.m in Sources */,
 				18F48ED61CBE39E0002A72CD /* ViewController.m in Sources */,
+				18F48F131CBE3C58002A72CD /* WBStatusHelper.m in Sources */,
 				18F48EF01CBE3A91002A72CD /* WYPhotoBrowser.m in Sources */,
+				18F48F121CBE3C58002A72CD /* WBStatusComposeViewController.m in Sources */,
+				18F48F111CBE3C58002A72CD /* WBStatusComposeTextParser.m in Sources */,
 				18F48ED31CBE39E0002A72CD /* AppDelegate.m in Sources */,
+				18F48F141CBE3C58002A72CD /* WBStatusLayout.m in Sources */,
+				18F48F101CBE3C58002A72CD /* WBStatusCell.m in Sources */,
 				18F48EF11CBE3A91002A72CD /* WYPhotoCell.m in Sources */,
 				18F48EF41CBE3A91002A72CD /* WYPhotoView.m in Sources */,
+				18F48F0F1CBE3C58002A72CD /* WBModel.m in Sources */,
+				18F48F151CBE3C58002A72CD /* WBStatusTimelineViewController.m in Sources */,
 				18F48ED01CBE39E0002A72CD /* main.m in Sources */,
 				18F48EF21CBE3A91002A72CD /* WYPhotoItem.m in Sources */,
+				18F48F2A1CBE3D75002A72CD /* YYTableViewCell.m in Sources */,
+				18F48F271CBE3D75002A72CD /* YYControl.m in Sources */,
+				18F48F2D1CBE3DCB002A72CD /* YYSimpleWebViewController.m in Sources */,
+				18F48F0E1CBE3C58002A72CD /* WBEmoticonInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
